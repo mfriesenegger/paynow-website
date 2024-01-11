@@ -14,7 +14,7 @@
 #   limitations under the License.
 ##############################################################################
 
-FROM registry.suse.com/bci/nodejs:18
+FROM registry.suse.com/bci/nodejs:20-3.6
 
 LABEL "org.opencontainers.image.source"="https://github.com/mfriesenegger/paynow-website"
 LABEL "org.opencontainers.image.description"="SLE BCI Pay Now Website"
